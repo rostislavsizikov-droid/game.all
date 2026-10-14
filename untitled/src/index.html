@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Аренда настольных игр в Алматы">
+  <title>ИгроДом — аренда настольных игр в Алматы</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <div class="header-inner">
+      <a class="logo" href="#top">ИгроДом</a>
+
+      <button class="menu-toggle" type="button"
+        aria-label="Открыть меню"
+        onclick="document.querySelector('.main-nav').classList.toggle('nav-open')">
+        ☰
+      </button>
+
+      <nav class="main-nav">
+        <a href="#top">Главная</a>
+        <a href="#games">Игры</a>
+        <a href="#services">Аренда</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <!-- Замени номер на свой номер WhatsApp -->
+      <a class="whatsapp"
+         href="https://wa.me/77000000000"
+         target="_blank"
+         rel="noopener noreferrer"
+         aria-label="WhatsApp">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <path d="M16 3a13 13 0 0 0-11 20l-2 6 6-2a13 13 0 1 0 7-24zm0 23a10 10 0 0 1-5-1l-4 1 1-4a10 10 0 1 1 8 4zm5-7-2-1c-.5 0-1 1-1 1s-2-1-3-3c0 0 1-1 1-1l-1-2c0-.5-1-.5-1-.5-1 0-2 1-2 3s3 5 6 6 4 0 5-2c0 0 0-1-1-1z"/>
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Преимущества -->
+    <section class="features">
+      <div class="feature-card">🚚 Доставка по Алматы</div>
+      <div class="feature-card">🎲 Игры для разного возраста</div>
+      <div class="feature-card">🧩 Более 50 игр</div>
+      <div class="feature-card">📅 Аренда от 1 дня</div>
+    </section>
+
+    <!-- Главный экран -->
+    <section class="hero">
+      <p class="eyebrow">Игры объединяют</p>
+
+      <h1>
+        <span>Аренда настольных</span>
+        <span>игр в Алматы</span>
+      </h1>
+
+      <p class="hero-text">
+        Соберите друзей, выберите игру и устройте
+        незабываемый вечер.
+        Не нужно покупать десятки игр —
+        просто арендуйте нужную на несколько дней.
+      </p>
+
+      <a href="#games" class="button">
+        Выбрать игру ↓
+      </a>
+    </section>
+
+    <!-- Каталог -->
+    <section class="section" id="games">
+      <div class="section-heading">
+        <p class="eyebrow">Найди свою игру</p>
+        <h2>Ассортимент</h2>
+        <p>Выбери игру для своей компании</p>
+      </div>
+
+      <div class="games-grid">
+
+        <!-- Игра 1 -->
+        <article class="game-card">
+          <div class="game-image">
+            <img src="https://hobbygames.kz/image/cache/hobbygames_beta/data/HobbyWorld/Karkasson/Karkasson_Big_Box/karkasson_big_box_00-1024x1024-wm.jpg"
+                 alt="Фотография настольной игры Каркассон">
+          </div>
+
+          <div class="game-content">
+            <span class="game-tag">Стратегия</span>
+            <h3>Каркассон</h3>
+            <p>Стройте города, дороги и поля, набирая очки.</p>
+
+            <ul class="game-facts">
+              <li>👥 2–5 игроков</li>
+              <li>⏱️ 35–45 мин</li>
+            </ul>
+
+            <div class="game-bottom">
+              <p class="price">2000 ₸ <small>/ день</small></p>
+              <a class="button button-small"
+                 href="https://wa.me/77000000000?text=Хочу%20арендовать%20Каркассон">
+                Арендовать
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Игра 2 -->
+        <article class="game-card">
+          <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCdFtrzcuGItMuYxnKfvKnqx88_NcN7fNpuv7EVNN-Nu8dZIO6qmx1EEk&s=10"
+                 alt="Фотография настольной игры Волки">
+          </div>
+
+          <div class="game-content">
+            <span class="game-tag">Тактика</span>
+            <h3>Волки</h3>
+            <p>Развивайте стаю и боритесь за территории.</p>
+
+            <ul class="game-facts">
+              <li>👥 2–5 игроков</li>
+              <li>⏱️ 1–2 часа</li>
+            </ul>
+
+            <div class="game-bottom">
+              <p class="price">2000 ₸ <small>/ день</small></p>
+              <a class="button button-small"
+                 href="https://wa.me/77000000000?text=Хочу%20арендовать%20Волки">
+                Арендовать
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Игра 3 -->
+        <article class="game-card">
+          <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3zLqRVL0f1XmOF_LC50MSeTbQHK1hQM0c53UBKFLp1p28uoZeRWjRr777&s=10"
+                 alt="Фотография игры Космо-катан">
+          </div>
+
+          <div class="game-content">
+            <span class="game-tag">Приключение</span>
+            <h3>Космо-катан</h3>
+            <p>Исследуйте космос и добывайте ресурсы.</p>
+
+            <ul class="game-facts">
+              <li>👥 2–5 игроков</li>
+              <li>⏱️ 1,5–2 часа</li>
+            </ul>
+
+            <div class="game-bottom">
+              <p class="price">2500 ₸ <small>/ день</small></p>
+              <a class="button button-small"
+                 href="https://wa.me/77000000000?text=Хочу%20арендовать%20Космо-катан">
+                Арендовать
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Игра 4 -->
+        <article class="game-card">
+          <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROxXhDbESg9qILv5Bgx53UlC67GWvvFyF1O96AYR-5mA&s"
+                 alt="Фотография игры Взрывные котята">
+          </div>
+
+          <div class="game-content">
+            <span class="game-tag">Весёлая</span>
+            <h3>Взрывные котята</h3>
+            <p>Быстрая карточная игра с неожиданными поворотами.</p>
+
+            <ul class="game-facts">
+              <li>👥 2–4 игрока</li>
+              <li>⏱️ 7–15 мин</li>
+            </ul>
+
+            <div class="game-bottom">
+              <p class="price">700 ₸ <small>/ день</small></p>
+              <a class="button button-small"
+                 href="https://wa.me/77000000000?text=Хочу%20арендовать%20Взрывные%20котята">
+                Арендовать
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Игра 5 -->
+        <article class="game-card">
+          <div class="game-image">
+            <img src="https://domigr.com.ua/image/cache/data/kolonizatory/Settlers_of_Catan_Treade_build_settle/Settlers_of_Catan_Trade_build_settle_05-376x376.jpg"
+                 alt="Фотография игры Катан">
+          </div>
+
+          <div class="game-content">
+            <span class="game-tag">Экономика</span>
+            <h3>Катан / Колонизаторы</h3>
+            <p>Торгуйте ресурсами, стройте дороги и поселения.</p>
+
+            <ul class="game-facts">
+              <li>👥 2–6 игроков</li>
+              <li>⏱️ 30–60 мин</li>
+            </ul>
+
+            <div class="game-bottom">
+              <p class="price">1500 ₸ <small>/ день</small></p>
+              <a class="button button-small"
+                 href="https://wa.me/77000000000?text=Хочу%20арендовать%20Катан">
+                Арендовать
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Игра 6 -->
+        <article class="game-card">
+          <div class="game-image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbv2D1efzkCEWrdfgO2H20K-Yyjv76Huv7n0M7pXwRxxq1_w9sN9TdoNU&s=10"
+                 alt="Фотография настольной игры Киклиды">
+          </div>
+
+          <div class="game-content">
+            <span class="game-tag">Семейная</span>
+            <h3>Клаклиды</h3>
+            <p>Собирайте комбинации и испытывайте удачу.</p>
+
+            <ul class="game-facts">
+              <li>👥 2–5 игроков</li>
+              <li>⏱️ 1–1,5 часа</li>
+            </ul>
+
+            <div class="game-bottom">
+              <p class="price">2500 ₸ <small>/ день</small></p>
+              <a class="button button-small"
+                 href="https://wa.me/77000000000?text=Хочу%20арендовать%20Кваклиды">
+                Арендовать
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- Дополнительные услуги -->
+    <section class="section services-section" id="services">
+      <div class="section-heading">
+        <p class="eyebrow">Больше удобства</p>
+        <h2>Дополнительные услуги</h2>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-icon">📘</div>
+          <h3>Помощь с правилами</h3>
+          <p>Поможем разобраться в игре перед началом.</p>
+          <div class="service-price">700 ₸</div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🎯</div>
+          <h3>Дополнение на выбор</h3>
+          <p>Выберите дополнительный набор к игре.</p>
+          <div class="service-price">2000 ₸</div>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🧠</div>
+          <h3>Правила дополнений</h3>
+          <p>Разберём особенности дополнительного набора.</p>
+          <div class="service-price">500 ₸</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="section" id="reviews">
+      <div class="section-heading">
+        <p class="eyebrow">Нам доверяют</p>
+        <h2>Отзывы</h2>
+      </div>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="stars" aria-label="5 звёзд">★★★★★</div>
+          <h3>Алина</h3>
+          <p>«Брали игру на выходные с друзьями. Всё быстро оформили, игра была в отличном состоянии. Обязательно возьмём ещё!»</p>
+        </article>
+
+        <article class="review-card">
+          <div class="stars" aria-label="5 звёзд">★★★★★</div>
+          <h3>Данияр</h3>
+          <p>«Очень удобно, что не нужно покупать дорогую игру ради одного вечера. Выбрали, поиграли и вернули.»</p>
+        </article>
+
+        <article class="review-card">
+          <div class="stars" aria-label="5 звёзд">★★★★★</div>
+          <h3>Мадина</h3>
+          <p>«Заказывали несколько игр на день рождения. Всем очень понравилось!»</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Часто задаваемые вопросы -->
+    <section class="section faq-section" id="faq">
+      <div class="section-heading">
+        <p class="eyebrow">Есть вопросы?</p>
+        <h2>Часто задаваемые вопросы</h2>
+      </div>
+
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>Можно ли арендовать игру только на один день?</summary>
+          <p>Да, большинство игр можно взять на один день. Уточните доступность при заказе.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Есть ли доставка по Алматы?</summary>
+          <p>Да, условия и стоимость доставки можно уточнить при оформлении заказа.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Что делать, если не хватает деталей?</summary>
+          <p>Свяжитесь с нами, если заметили проблему с комплектом игры.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Можно ли забронировать игру заранее?</summary>
+          <p>Да, рекомендуем бронировать популярные игры заранее.</p>
+        </details>
+
+        <details class="faq-item">
+          <summary>Можно ли взять несколько игр?</summary>
+          <p>Конечно! Вы можете оформить несколько игр в одном заказе.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="contact-banner" id="contacts">
+      <div>
+        <p class="eyebrow">Готовы к игре?</p>
+        <h2>Выберем игру для вашего вечера</h2>
+        <p>Напишите нам — поможем подобрать игру и расскажем об условиях аренды.</p>
+      </div>
+      <a class="button button-light"
+         href="https://wa.me/77000000000"
+         target="_blank" rel="noopener noreferrer">
+        Написать в WhatsApp ↗
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo" href="#top">ИгроДом</a>
+    <p>Аренда настольных игр в Алматы</p>
+    <p class="copyright">© 2026 ИгроДом. Все права защищены.</p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d287368.02178829943!2d76.6228742793777!3d43.217831380486444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38836e7d16c5cbab%3A0x3d44668fad986d76!2sAlmaty!5e1!3m2!1sen!2skz!4v1791988856379!5m2!1sen!2skz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  </footer>
+
+</body>
+</html>
